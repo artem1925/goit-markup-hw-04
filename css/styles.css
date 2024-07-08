@@ -138,10 +138,6 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.first-adress-nav-list {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .adress-nav-list:hover {
   color: #404bbf;
 }
