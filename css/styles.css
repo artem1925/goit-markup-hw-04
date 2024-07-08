@@ -363,6 +363,10 @@ img {
   align-items: baseline;
 }
 
+.logo-text {
+  margin-right: 120px;
+}
+
 .logo-f {
   display: inline-block;
   margin-bottom: 16px;
