@@ -358,6 +358,10 @@ img {
   color: #666;
 }
 
+.container-footer {
+  display: flex;
+}
+
 .logo-f {
   display: inline-block;
   margin-bottom: 16px;
