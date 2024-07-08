@@ -343,6 +343,11 @@ img {
 }
 /*foter*/
 /*logo*/
+
+:root {
+  --white: #ffffff;
+}
+
 .footer-box {
   padding: 100px 0 100px;
   background: #2e2f42;
@@ -407,4 +412,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  color: var(--white);
 }
