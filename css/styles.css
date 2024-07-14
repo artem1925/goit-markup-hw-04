@@ -477,7 +477,13 @@ img {
   background: #2e2f42;
 }
 .footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo-text-container {
   flex-direction: column;
+  margin-right: 120px;
 }
 
 .logo-f {
