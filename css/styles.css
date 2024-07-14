@@ -112,6 +112,11 @@ img {
   padding: 24px 0;
 }
 
+.first-menu-item {
+  position: relative;
+  color: #404bbf;
+}
+
 .menu-nav-list {
   padding: 24px 0;
   font-family: "Roboto", sans-serif;
