@@ -378,7 +378,8 @@ img {
   justify-content: center;
 }
 
-.link-icon:hover .link-icon:focus {
+.link-icon:hover,
+.link-icon:focus {
   background-color: #404bbf;
 }
 
