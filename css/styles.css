@@ -181,6 +181,20 @@ img {
 /*main page*/
 /*block 1*/
 
+.block-one {
+  padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/img-name.jpeg);
+  margin: auto;
+  max-width: 1440px;
+  max-height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .block-one-container {
   margin: 0 auto;
 }
@@ -199,11 +213,7 @@ img {
   max-height: 120px;
   align-items: center;
 }
-.block-one {
-  background-color: #2e2f42;
-  padding: 188px 0;
-  max-height: 600px;
-}
+
 .button-one {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
