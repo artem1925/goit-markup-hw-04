@@ -360,6 +360,8 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-bottom: 32px;
+  padding-top: 8px;
 }
 
 .team-items-icons {
