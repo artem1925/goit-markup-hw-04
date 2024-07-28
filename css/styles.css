@@ -301,33 +301,23 @@ img {
 /*block-3*/
 /*our team*/
 
-.text-info {
-  padding: 32px 0;
-}
-
-.block-three {
-  background: #f4f4fd;
-  padding: 120px 0;
-}
-
-.team-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  border-radius: 0px 0px 4px 4px;
-  background-color: #fff;
-  margin: 0 auto;
-  height: 428px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
 .team {
-  font-family: "Roboto", sans-serif;
+  padding: 120px 0;
+  background-color: #f4f4fd;
+}
+
+.team-container {
+  text-transform: capitalize;
+  background-color: #f4f4fd;
+}
+
+.team-hidden {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
   margin-bottom: 72px;
 }
 
@@ -336,57 +326,76 @@ img {
   gap: 24px;
 }
 
-.team-heading {
-  font-family: "Roboto", sans-serif;
+.team-item {
+  background-color: var(--white);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-div-item {
+  display: flex;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  flex-direction: column;
+  padding: 32px 0;
+}
+
+.team-item {
+  background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.team-titl {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+  margin: 0 auto;
   margin-bottom: 8px;
 }
-.team-text {
-  font-family: "Roboto", sans-serif;
+
+.team-txt {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin: 0 auto;
+  margin-bottom: 8px;
 }
 
-.team-list-icons {
+.team-icon {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 24px;
-  padding-bottom: 32px;
-  padding-top: 8px;
 }
 
-.team-items-icons {
+.team-soc-item {
+}
+
+.team-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.link-icon {
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #4d5ae5;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-icon:hover,
-.link-icon:focus {
+.team-icon-link:hover,
+.team-icon-link:focus {
   background-color: #404bbf;
 }
 
-.team-icons {
+.team-icon-soc {
   fill: #f4f4fd;
 }
 
